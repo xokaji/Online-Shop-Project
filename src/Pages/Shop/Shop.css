@@ -1,0 +1,46 @@
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+}
+
+.product{
+    border-radius: 15px;
+    width:300px;
+    height: 350px;
+    display: flex;
+    margin: 80px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.product img{
+    width: 350px;
+}
+
+.product .description{
+    text-align:center;
+}
+
+.title{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.addbutton{
+    width:100px;
+    padding:10px 5px 10px 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 100px;
+    color: black;
+    
+}
+
+.addbutton:hover{
+    background-color: black;
+    color: aliceblue;
+}   
